@@ -163,6 +163,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/hw/lights.exynos5.so:system/vendor/lib/hw/lights.exynos5.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/hw/power.exynos5.so:system/vendor/lib/hw/power.exynos5.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/hw/keystore.exynos5.so:system/vendor/lib/hw/keystore.exynos5.so \
-    vendor/samsung/klimtwifi/proprietary/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
+    vendor/samsung/klimtwifi/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
     vendor/samsung/klimtwifi/proprietary/sbin/sswap:root/sbin/sswap
        
