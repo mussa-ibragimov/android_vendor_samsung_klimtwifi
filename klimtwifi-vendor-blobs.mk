@@ -134,7 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/klimtwifi/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/hw/lights.exynos5.so:system/vendor/lib/hw/lights.exynos5.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/hw/power.exynos5.so:system/vendor/lib/hw/power.exynos5.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
