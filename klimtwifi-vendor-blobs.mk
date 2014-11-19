@@ -22,9 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:system/app/mcRegistry/07060000000000000000000000000000.tlbin \
     vendor/samsung/klimtwifi/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
     vendor/samsung/klimtwifi/proprietary/app/mcRegistry/ffffffff00000000000000000000000b.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000b.tlbin \
-    vendor/samsung/klimtwifi/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
     vendor/samsung/klimtwifi/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
-    vendor/samsung/klimtwifi/proprietary/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
     vendor/samsung/klimtwifi/proprietary/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
     vendor/samsung/klimtwifi/proprietary/app/mcRegistry/ffffffff000000000000000000000003.tlbin:system/app/mcRegistry/ffffffff000000000000000000000003.tlbin \
     vendor/samsung/klimtwifi/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:system/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
@@ -45,30 +43,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/klimtwifi/proprietary/etc/gps.xml:system/etc/gps.xml \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_apsta.bin_4354_a0:system/etc/wifi/bcmdhd_apsta.bin_4354_a0 \
-    vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_apsta.bin_4354_a1:system/etc/wifi/bcmdhd_apsta.bin_4354_a1 \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_apsta.bin_a0:system/etc/wifi/bcmdhd_apsta.bin_a0 \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_ibss.bin:system/etc/wifi/bcmdhd_ibss.bin \
-    vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_ibss.bin_4354_a0:system/etc/wifi/bcmdhd_ibss.bin_4354_a0 \
-    vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_ibss.bin_4354_a1:system/etc/wifi/bcmdhd_ibss.bin_4354_a1 \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_ibss.bin_a0:system/etc/wifi/bcmdhd_ibss.bin_a0 \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
-    vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_mfg.bin_4354_a0:system/etc/wifi/bcmdhd_mfg.bin_4354_a0 \
-    vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_mfg.bin_4354_a1:system/etc/wifi/bcmdhd_mfg.bin_4354_a1 \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_mfg.bin_a0:system/etc/wifi/bcmdhd_mfg.bin_a0 \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_sta.bin_4354_a0:system/etc/wifi/bcmdhd_sta.bin_4354_a0 \
-    vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_sta.bin_4354_a1:system/etc/wifi/bcmdhd_sta.bin_4354_a1 \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_sta.bin_a0:system/etc/wifi/bcmdhd_sta.bin_a0 \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_sta_tput.bin:system/etc/wifi/bcmdhd_sta_tput.bin \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_sta_tput.bin_a0:system/etc/wifi/bcmdhd_sta_tput.bin_a0 \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/klimtwifi/proprietary/etc/wifi/nvram_mfg.txt_4354_a0:system/etc/wifi/nvram_mfg.txt_4354_a0 \
-    vendor/samsung/klimtwifi/proprietary/etc/wifi/nvram_mfg.txt_4354_a1:system/etc/wifi/nvram_mfg.txt_4354_a1 \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/klimtwifi/proprietary/etc/wifi/nvram_net.txt_4354_a0:system/etc/wifi/nvram_net.txt_4354_a0 \
-    vendor/samsung/klimtwifi/proprietary/etc/wifi/nvram_net.txt_4354_a1:system/etc/wifi/nvram_net.txt_4354_a1 \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/olsrd.conf:system/etc/wifi/olsrd.conf \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
@@ -79,11 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
     vendor/samsung/klimtwifi/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
     vendor/samsung/klimtwifi/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/klimtwifi/proprietary/lib/jack/jack_alsa.so:system/lib/jack/jack_alsa.so \
-    vendor/samsung/klimtwifi/proprietary/lib/jack/jack_dummy.so:system/lib/jack/jack_dummy.so\
-    vendor/samsung/klimtwifi/proprietary/lib/jack/jack_goldfish.so:system/lib/jack/jack_goldfish.so \
-    vendor/samsung/klimtwifi/proprietary/lib/jack/jack_loopback.so:system/lib/jack/jack_loopback.so \
-    vendor/samsung/klimtwifi/proprietary/lib/jack/jack_opensles.so:system/lib/jack/jack_opensles.so \
     vendor/samsung/klimtwifi/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.universal5420.so \
     vendor/samsung/klimtwifi/proprietary/lib/hw/camera.vendor.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
     vendor/samsung/klimtwifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -95,9 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/lib/libvdis.so:system/lib/libvdis.so \
     vendor/samsung/klimtwifi/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/klimtwifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/klimtwifi/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
-    vendor/samsung/klimtwifi/proprietary/lib/libomafldrm.so:system/lib/libomafldrm.so \
-    vendor/samsung/klimtwifi/proprietary/lib/libmaet.so:system/lib/libmaet.so \
     vendor/samsung/klimtwifi/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
     vendor/samsung/klimtwifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/klimtwifi/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
@@ -135,9 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/usr/idc/Synaptics_HID_TouchPad.idc:system/usr/idc/Synaptics_HID_TouchPad.idc \
     vendor/samsung/klimtwifi/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     vendor/samsung/klimtwifi/proprietary/vendor/firmware/bcm4350.hcd:system/vendor/firmware/bcm4350.hcd \
-    vendor/samsung/klimtwifi/proprietary/vendor/firmware/bcm4350_A0.hcd:system/vendor/firmware/bcm4350_A0.hcd \
     vendor/samsung/klimtwifi/proprietary/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin:system/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin \
-    vendor/samsung/klimtwifi/proprietary/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0197.0319_Klint_3G_WIFI_ORC.hcd:system/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0197.0319_Klint_3G_WIFI_ORC.hcd \
     vendor/samsung/klimtwifi/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/klimtwifi/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     vendor/samsung/klimtwifi/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
@@ -162,7 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/hw/lights.exynos5.so:system/vendor/lib/hw/lights.exynos5.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/hw/power.exynos5.so:system/vendor/lib/hw/power.exynos5.so \
-    vendor/samsung/klimtwifi/proprietary/vendor/lib/hw/keystore.exynos5.so:system/vendor/lib/hw/keystore.exynos5.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
     vendor/samsung/klimtwifi/proprietary/sbin/sswap:root/sbin/sswap
        
