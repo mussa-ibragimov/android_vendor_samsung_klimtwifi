@@ -21,7 +21,6 @@
     SuplEnable="false"
     SuplUseApn="false"
 
-    HulaEnable="false"
     LbsEnable="true"
     LbsServer="BCMLS2.glpals.com"
     HttpSyncLto="true"

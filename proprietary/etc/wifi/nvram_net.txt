@@ -1,5 +1,5 @@
 # Sample variables file for Samsung BCM4354WLBGA iPA, eLNA board with SDIO for production package
-# Chagall-3G Rev0.4 - 2014. 3. 20
+# KL_3G Rev0.2 2014/4/14
 NVRAMRev=$Rev: 373428 $
 sromrev=11
 boardrev=0x1101
@@ -78,19 +78,23 @@ tempthresh=255
 tempoffset=255
 rawtempsense=0x1ff
 
-## Rev0.4 TSSI Calibration -2014.2.20
-pa2ga0=0xff77,0x17a4,0xfd47
-pa2ga1=0xff6d,0x168d,0xfd59
-pa5ga0=0xff3C,0x16C0,0xfd32,0xff3b,0x169b,0xfd37,0xff3b,0x169d,0xfd38,0xff3b,0x16e2,0xfd30
-pa5ga1=0xff46,0x16ce,0xfd34,0xff3b,0x1628,0xfd41,0xff43,0x162f,0xfd44,0xff47,0x169c,0xfd39
+#pa2ga0=0xff73,0x1727,0xfd52
+#pa2ga1=0xff6d,0x1763,0xfd4b
+#pa5ga0=0xff42,0x175c,0xfd2a,0xff42,0x1785,0xfd25,0xff42,0x1768,0xfd28,0xff43,0x16bc,0xfd37
+#pa5ga1=0xff42,0x1790,0xfd20,0xff43,0x175d,0xfd28,0xff4d,0x1735,0xfd33,0xff4a,0x16c9,0xfd3c
 
-## Target Power - 2014.03.20
-## 2G: 11b-17dBm/11g-14dBm/11n-14dBm
-## 5G: 11a-15dBm/11n_20M-14dBm/11ac_80M-11.5dBm
+pa2ga0=0xff8d,0x17a9,0xfd61
+pa2ga1=0xff71,0x1795,0xfd45
+pa5ga0=0xff4b,0x1723,0xfd32,0xff57,0x1718,0xfd40,0xff5c,0x1778,0xfd3a,0xff4f,0x16fa,0xfd3d
+pa5ga1=0xff42,0x1790,0xfd20,0xff43,0x175d,0xfd28,0xff4d,0x1735,0xfd33,0xff4a,0x16c9,0xfd3c
 
-maxp2ga0=74
+## Target Power
+## 2G: 11b-17dBm/11g-14dBm/11n-13dBm
+## 5G: 11a-14dBm/11n_40M-12dBm/11ac_80M-11dBm
+
+maxp2ga0=78
 maxp5ga0=74,74,74,74
-maxp2ga1=74
+maxp2ga1=80
 maxp5ga1=74,74,74,74
 subband5gver=0x4
 pdoffsetcckma0=0x4
@@ -103,19 +107,19 @@ pdoffset80ma1=0x0000
 cckbw202gpo=0x0000
 cckbw20ul2gpo=0x0000
 dot11agofdmhrbw202gpo=0x6666
-ofdmlrbw202gpo=0x0066
-mcsbw202gpo=0x88644444
-mcsbw402gpo=0xaa888888
+ofdmlrbw202gpo=0x0064
+mcsbw202gpo=0xaaa88888
+mcsbw402gpo=0xaaa88888
 
-mcsbw205glpo=0x77644444
-mcsbw405glpo=0x99866666
-mcsbw805glpo=0xbba88888
-mcsbw205gmpo=0x77644444
-mcsbw405gmpo=0x99866666
-mcsbw805gmpo=0xbba88888
-mcsbw205ghpo=0x77644444
-mcsbw405ghpo=0x99866666
-mcsbw805ghpo=0xbba88888
+mcsbw205glpo=0x88866664
+mcsbw405glpo=0xaaa88888
+mcsbw805glpo=0xcccaaaaa
+mcsbw205gmpo=0x88866666
+mcsbw405gmpo=0xaaa88888
+mcsbw805gmpo=0xcccaaaaa
+mcsbw205ghpo=0x88866662
+mcsbw405ghpo=0xaaa88888
+mcsbw805ghpo=0xcccaaaaa
 mcslr5glpo=0x0000
 mcslr5gmpo=0x0000
 mcslr5ghpo=0x0000
@@ -149,17 +153,18 @@ AvVmid_c2=0,0,0,0,0,0,0,0,0,0
 
 rssicorrnorm_c0=3,3
 rssicorrnorm_c1=3,3
+#rssicorrnorm5g_c0=1,2,3,0,2,2,0,1,2,0,2,2
+#rssicorrnorm5g_c1=-1,1,2,0,0,1,0,1,2,1,2,3
 rssicorrnorm5g_c0=1,2,3,0,2,2,0,1,2,0,2,2
-rssicorrnorm5g_c1=-1,1,2,0,0,1,0,1,2,1,2,3
-
+rssicorrnorm5g_c1=0,2,2,3,3,3,4,5,5,5,5,5
 swctrlmap_5g=0x00000202,0x05050000,0x04040000,0x000000,0x047
 swctrlmap_2g=0x0000140c,0x28300000,0x08200000,0x803020,0x0ff
 
 cckdigfilttype=1
 
 ## 2G TX power compensation
-powoffs2gtna0=-1,-1,0,0,0,-1,0,0,0,0,0,0,0,0
-powoffs2gtna1=1,1,1,1,1,1,0,0,0,1,1,1,1,0
+powoffs2gtna0=0,0,-1,0,-1,-2,-2,-2,-1,1,1,0,1,0
+powoffs2gtna1=2,1,1,1,1,0,-1,-1,0,2,3,2,1,0
 
 #BT coex
 btc_mode=1
