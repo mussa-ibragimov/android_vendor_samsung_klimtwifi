@@ -65,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
     vendor/samsung/klimtwifi/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
     vendor/samsung/klimtwifi/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.universal5420.so \
+    vendor/samsung/klimtwifi/proprietary/lib/hw/camera.vendor.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
     vendor/samsung/klimtwifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/klimtwifi/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
     vendor/samsung/klimtwifi/proprietary/csc/TGY/system/lib/libWVphoneAPI.so:system/csc/TGY/system/lib/libWVphoneAPI.so \
