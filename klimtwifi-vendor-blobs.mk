@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/vendor/firmware/bcm4350_A0.hcd:system/vendor/firmware/bcm4350_A0.hcd \
     vendor/samsung/klimtwifi/proprietary/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0197.0319_Klint_3G_WIFI_ORC.hcd:system/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0197.0319_Klint_3G_WIFI_ORC.hcd \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
-    vendor/samsung/klimtwifi/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
+    vendor/samsung/klimtwifi/proprietary/lib/hw/camera.vendor.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
     vendor/samsung/klimtwifi/proprietary/lib/libak09911c.so:system/lib/libak09911c.so \
     vendor/samsung/klimtwifi/proprietary/lib/libarcsoft_flawlessface2.so:system/lib/libarcsoft_flawlessface2.so \
     vendor/samsung/klimtwifi/proprietary/lib/libarcsoft_magicshot_bestface.so:system/lib/libarcsoft_magicshot_bestface.so \
